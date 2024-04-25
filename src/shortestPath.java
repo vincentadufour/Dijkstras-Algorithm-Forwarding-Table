@@ -40,7 +40,7 @@ public class shortestPath {
         // try matrix creation & shortest path if topo.txt is valid
         try
         {
-            BufferedReader topoFile = new BufferedReader(new FileReader("../data/topo.txt"));
+            BufferedReader topoFile = new BufferedReader(new FileReader("../topo.txt"));
 
             // create costMatrix
             int[][] costMatrix = new int[numOfNodes][numOfNodes];
@@ -191,26 +191,6 @@ public class shortestPath {
                 System.out.printf("%-12s %-20s%n", "V" + destination, link);
             }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             topoFile.close();
         } catch (FileNotFoundException e)
         {
@@ -219,12 +199,5 @@ public class shortestPath {
         {
             System.out.println("Error occured.");
         }
-
-        
-        
-
-
-        
-
     }
 }
