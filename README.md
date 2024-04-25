@@ -13,6 +13,7 @@ Each row is an edge, first element is the source router, second element is the d
 # Output
 
 ![Output](pics/output.png)
+
 Matrix creation is printed as each row is added, and the entire matrix is printed once the entire `topo.txt` file has been read.
 
 Every iteration of Dijkstra's Algorithm is printed for legibility.
