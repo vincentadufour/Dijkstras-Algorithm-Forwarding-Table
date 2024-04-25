@@ -40,7 +40,7 @@ public class shortestPath {
         // try matrix creation & shortest path if topo.txt is valid
         try
         {
-            BufferedReader topoFile = new BufferedReader(new FileReader("../topo.txt"));
+            BufferedReader topoFile = new BufferedReader(new FileReader("../data/topo.txt"));
 
             // create costMatrix
             int[][] costMatrix = new int[numOfNodes][numOfNodes];
